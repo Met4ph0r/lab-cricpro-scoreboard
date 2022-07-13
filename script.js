@@ -1,7 +1,5 @@
 const img = document.createElement("img")
 let info = (id) => {
-    // let img = document.createElement("img")
-    // img.id="img"+id
     switch(id){
         case "p1": {
             img.src = "./assets/Player6.png"
@@ -70,42 +68,3 @@ let info = (id) => {
     
    }, 1500)
 }
-
-
-// let vanish = (id) => {
-//     img = document.createElement("img")
-//     document.getElementById(id).removeChild()
-//     // img = document.getElementById("img"+id)
-//     // img.style.display="none"
-    
-//not needed
-//     // let img1 = document.getElementById(prevID)
-//     // console.log("Leave Prev")
-//     // console.log(prevID)
-//     // img1.style.display="none"
-// }
-
-
-
-// const isHover = e => e.parentElement.querySelector(':hover') === e;  
-
-// let img = document.createElement("img")
-// img.src = "./assets/Player6.png"
-// img.style.position= "absolute"
-
-// const myElement = document.getElementById('p1');
-
-// document.addEventListener('mousemove', function checkHover() {
-//   const hovered = isHover(myElement);
-//   if (hovered !== checkHover.hovered) {
-//     if(hovered){
-//         document.getElementById('p1').appendChild(img)
-//     }
-//     else{
-//         document.getElementById('p1').removeChild(img)
-//     }
-
-//     // console.log(hovered ? 'hovered' : 'not hovered');
-//     checkHover.hovered = hovered;
-//   }
-// });
